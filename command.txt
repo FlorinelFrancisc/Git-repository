@@ -1,0 +1,454 @@
+    1  ssh root@38.242.149.113
+    2  passwd
+    3  apt update
+    4  apt upgrade
+    5  apt install htop
+    6  htop
+    7  clear
+    8  apt install git
+    9  git
+   10  clear
+   11  cd /
+   12  ls
+   13  dh -h
+   14  df -h
+   15  cd /
+   16  ls
+   17  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+   18  nvm ls-remote
+   19  nvm install 20.11.1
+   20  node
+   21  node --version
+   22  ls
+   23  clear
+   24  ls
+   25  cd
+   26  cd /
+   27  ls
+   28  cd /var
+   29  mkdir www
+   30  ls
+   31  ls -la
+   32  ls
+   33  cd wwww
+   34  cd www
+   35  ls
+   36  mkdir test
+   37  ls
+   38  cd test
+   39  npm init -y
+   40  ls
+   41  cat package.json 
+   42  npm install express
+   43  ls
+   44  cat package.json 
+   45  ls
+   46  cd node.modus
+   47  nano index.js
+   48  ls
+   49  node index
+   50  nano index.js 
+   51  node index
+   52  exit
+   53  ls
+   54  nano index.js exit
+   55  ls -la
+   56  ls
+   57  apt update
+   58  htop
+   59  clear
+   60  node --version
+   61  nano index.js 
+   62  node index
+   63  ls
+   64  cd test
+   65  cd /var
+   66  ls
+   67  cd www
+   68  nano index.js 
+   69  cd test/
+   70  LS
+   71  ls
+   72  node index.js 
+   73  npm install -g pm2
+   74  pm2
+   75  pm2 -h
+   76  htop -h
+   77  nano -h
+   78  pm2 start index.js --name test-hello-world
+   79  ls
+   80  cat index.js 
+   81  node index.js 
+   82  pm logs
+   83  pm2 status
+   84  nano index.js 
+   85  pm2 start index.js --name test-Hello-Florinel
+   86  nano index.js 
+   87  pm2 log
+   88  pm2 status
+   89  pm2 stop 1
+   90  pm2 delete 1
+   91  pm2 log
+   92  exit
+   93  history
+   94  cd /var/www/test/
+   95  ls
+   96  pm2 save
+   97  cd /var/www/test/
+   98  pm2 status
+   99  nano /etc/ssh/sshd_config
+  100  reebot
+  101  reboot
+  102  ls
+  103  pm2
+  104  pm2 resurect
+  105  pm2 resurrect
+  106  ufw status
+  107  ufw allow 80
+  108  ufw allow 443
+  109  ufw allow 12345
+  110  ufw enable
+  111  ufw status
+  112  reboot
+  113  pm2 resurect
+  114  pm2 
+  115  cd /var/www/test/
+  116  pm2 
+  117  nano /etc/motd
+  118  pm2 resurrect
+  119  nano /etc/motd
+  120  apt install snapd
+  121  snap install core
+  122  snap refresh core
+  123  snap install --classic certbot
+  124  ln -s /snap/bin/certbot /usr/bin/certbot
+  125  certbot -h
+  126  pm2 status
+  127  pm2 stop 0
+  128  certbot certonly --standalone
+  129  pm2 start
+  130  pm2 status
+  131  cd var/www
+  132  ls
+  133  cd ..
+  134  ls
+  135  cd var/www
+  136  ls
+  137  cd test
+  138  ls
+  139  cd ..
+  140  pm2 start test-hello-word
+  141  pm2 status
+  142  cd test
+  143  pm2 start test-hello-word
+  144  ls
+  145  cd ..
+  146  pm2 start test-hello-world
+  147  cd..
+  148  ls
+  149  cd..
+  150  pm2 status
+  151  cd ..
+  152  certbot certificates
+  153  cd var/www
+  154  pm2 status
+  155  cd ..
+  156  pm2 stop
+  157  pm2 stop 0
+  158  cd var/www
+  159  ls
+  160  nano index.js
+  161  pm2 status
+  162  pm2 start test-hello-world
+  163  mkdir reverse_proxy
+  164  cd reverse_proxy
+  165  ls
+  166  npm init -y
+  167  npm install https-server-proxy
+  168  nano index.js
+  169  certbot certificates
+  170  nano index.js
+  171  pm2 status
+  172  pm2 start index.js --name reverse-proxy
+  173  pm2 save
+  174  pm2 status
+  175  pm2 start index.js --name reverse-proxy
+  176  nano index.js
+  177  cd ..
+  178  ls
+  179  cp -r test hello-cats
+  180  cp -r test hello-dogs
+  181  ls
+  182  rm -r test
+  183  ls
+  184  cd hello-cats
+  185  ls
+  186  nano index.js
+  187  cd hello-dogs
+  188  nano index.js
+  189  cd hello-cats
+  190  cd hello-dogs
+  191  nano index.js
+  192  cd ..
+  193  cd hello-dogs
+  194  nano index.js
+  195  cd ..
+  196  pm2 start index.js --name reverse-proxy
+  197  pm2 start index.js --name hello dogs
+  198  nano index.js
+  199  pm2 status
+  200  nano index.js
+  201  pm2 start index.js --name hello dogs
+  202  pm2 logs
+  203  ls
+  204  cd ..
+  205  ls
+  206  cd /var//www/reverse_proxy/
+  207  ls
+  208  cd /etc/letsencrypt/live
+  209  ls
+  210  cd /var/www/reverse_proxy/
+  211  ls
+  212  nano index.js
+  213  ls /etc/letsencrypt/live
+  214  nano index.js
+  215  pm2 status
+  216  pm2 restart 1
+  217  pm2 status
+  218  pm2 delete 2
+  219  pm2 status
+  220  pm2 logs
+  221  nano index.js
+  222  pm2 status
+  223  pm2 restart 1
+  224  pm2 status
+  225  pm2 logs
+  226  nano index.js
+  227  pm2 restart 1
+  228  pm2 status
+  229  cd /var/www
+  230  ls
+  231  delete 0
+  232  pm2 delete 0
+  233  pm2 delete 3
+  234  ls
+  235  rm index.js
+  236  cp -r hello-cats hello-birds
+  237  ls
+  238  cd hello-cats
+  239  nano index.js
+  240  cd ../hello-dogs
+  241  nano index.js
+  242  cd ../hello-birds
+  243  nano index.js
+  244  cd ../reverse_proxy/
+  245  ls
+  246  nano index.js
+  247  pm2 restart 1
+  248  pm2 save
+  249  cd ..
+  250  cd hello-cats
+  251  ls
+  252  cat index.js
+  253  pm2 start index.js --name hello-cats
+  254  cd ../hello-dogs
+  255  pm2 start index.js --name hello-dogs
+  256  cd ../hello-b
+  257  cd ../hello-birds/
+  258  pm2 start index.js --name hello-birds
+  259  pm2 status
+  260  pm2 save
+  261  cd ../reverse_proxy/
+  262  ls
+  263  nano index.js
+  264  pm2 restart 1
+  265  cd ../hello-cats
+  266  ls
+  267  nano index.js
+  268  pm2 restart 4
+  269  nano index.js
+  270  pm2 start index.js --name hello-birds
+  271  pm2 start index.js --name hello-cats
+  272  pm2 start index.js --name hello-dogs
+  273  cd ../hello-birds/
+  274  cd ../reverse_proxy/
+  275  pm2 start index.js --name reverse-proxy
+  276  pm2 start index.js --name hello-birds
+  277  pm2 status
+  278  cd ../hello-birds/
+  279  ls
+  280  cd hello-cats
+  281  cd /var/www
+  282  nano index.js
+  283  cd ..
+  284  pm2 status
+  285  cd /var/www
+  286  ls
+  287  nano idex.js
+  288  cd hello-birds
+  289  ls
+  290  nano idex.js
+  291  cd ..
+  292  nano idex.js
+  293  cd ..
+  294  ls
+  295  df -h
+  296  htop
+  297  cd /var/www
+  298  nano idex.js
+  299  pm2 status
+  300  cd ..
+  301  ssh-keygen -t ed25519 -C "francisc_florinel@yahoo.com"
+  302  eval "$(ssh-agent -s)"
+  303  ssh-add ~/.ssh/id_ed25519
+  304  cd /var/www
+  305  ls
+  306  git clone [200~git@github.com:FlorinelFrancisc/Git-repository.git~
+  307  ls
+  308  git clone git@github.com:FlorinelFrancisc/Git-repository.git
+  309  cd ..
+  310  sudo apt update
+  311  sudo apt install mysql-server
+  312  sudo systemctl start mysql.service
+  313  sudo service mysql status
+  314  sudo mysql
+  315  sudo mysql_secure_installation
+  316  cd /var/www
+  317  git clone github.com/ironboy/basic-node-html-server.git
+  318  https://github.com/ironboy/basic-node-html-server.git
+  319  ls
+  320  cd Git-repository
+  321  ls
+  322  npm install
+  323  cd ..
+  324  git clone https://github.com/ironboy/basic-node-html-server.git
+  325  git clone git@github.com:ironboy/basic-node-html-server.git
+  326  ls
+  327  cd basic-node-html-server
+  328  ls
+  329  npm install
+  330  pm2 status
+  331  pm2 stop 4
+  332  pm2 stop 6
+  333  pm2 stop 5
+  334  pm2 start index.js --name basicserver
+  335  pm 2 stop reverse-poxy
+  336  pm 2 stop reverse-proxy
+  337  pm2 stop reverse-proxy
+  338  pm2 start basicserver
+  339  pm2 restart reverse-proxy
+  340  reboot
+  341  pm2 status
+  342  ls
+  343  cd ..
+  344  ls
+  345  cd var/www
+  346  ls
+  347  cd basic-node-html-server
+  348  pm2 start index.js --name basicserver
+  349  pm2 status
+  350  cd ..
+  351  cd reverse-proxy
+  352  ls
+  353  cd reverse_proxy
+  354  pm2 start index.js --name reverse-proxy
+  355  pm2 logs
+  356  cd ..
+  357  pm2 restart basicserver
+  358  ls
+  359  cd basic-node-html-server
+  360  nano index.js
+  361  pm2 restart basicserver
+  362  cd ..
+  363  cd reverse_proxy
+  364  nano index.js
+  365  cd ..
+  366  ls
+  367  cd hello-cats
+  368  nano index.js
+  369  pm2 start index.js --name hello-cats
+  370  cd ..
+  371  cd hello-dogs
+  372  nano index.js
+  373  pm2 start index.js
+  374  pm2 delete 3
+  375  pm2 start index.js --name hello-dogs
+  376  cd ..
+  377  cd ../../
+  378  mysql -u root -p
+  379  sudo mysql
+  380  systemctl status mysql.service
+  381  sudo mysqladmin -p -u sammy version
+  382  systemctl status mysql.service
+  383  sudo mysqladmin -p -u sammy version
+  384  mysql -u sammy -p
+  385  sudo mysql
+  386  systemctl status mysql.service
+  387  sudo mysqladmin -p -u sammy 
+  388  sudo mysqladmin -p -u sammy version
+  389  sudo mysql
+  390  sudo mysqladmin -p -u sammy version
+  391  Toyotaproace12
+  392  sudo mysqladmin -p -u sammy version
+  393  mysql -u root -p
+  394  cd /var/www
+  395  ls
+  396  cd basic-node-html-server/
+  397  ls
+  398  cd ..
+  399  ls
+  400  cd Git-repository/
+  401  ls
+  402  nano README.md
+  403  cd ..
+  404  git clone https://github.com/ironboy/app1-infrastruktur
+  405  npm install
+  406  ls
+  407  rm package-lock.json 
+  408  ls
+  409  cd app1-infrastruktur/
+  410  ls
+  411  npm install
+  412  npm audit fix
+  413  cat README.md 
+  414  nano settings.json
+  415  cat README.md 
+  416  ls
+  417  cd _seed_db
+  418  node seeder.js
+  419  mysql -u root -p
+  420  node seeder.js
+  421  cd ..
+  422  nano settings.json
+  423  cd _seed_db/
+  424  node seeder.js 
+  425  mysql -u root -p
+  426  node seeder.js 
+  427  cd ..
+  428  ls
+  429  nano settings.json 
+  430  cd _seed_db/
+  431  node seeder.js 
+  432  cd ../
+  433  ls
+  434  npm run build
+  435  pm2 start index.js --name app1-cinema-p4000
+  436  ls
+  437  cd backend
+  438  ls
+  439  node index
+  440  pm2 start index.js --name app1-cinema-p4000
+  441  cd reverse-proxy
+  442  cd ../../reverse_proxy/
+  443  ls
+  444  nano index.js
+  445  pm2 restart 1
+  446  pm2 save
+  447  history
+  448  cd var/www
+  449  cd var
+  450  cd /var/www
+  451  ls
+  452  cd Git-repository/
+  453  history
+  454  history > command.txt
